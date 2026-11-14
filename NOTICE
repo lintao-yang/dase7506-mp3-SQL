@@ -31,4 +31,6 @@ Integrity
 The agent never reads test references, grading databases or expected-result
 fingerprints. All model prompts, generated text and token counts for the final
 run are recorded in outputs/llm_trace.jsonl inside the source archive.
-External assistance (Trae AI coding assistant) is disclosed in the report.
+External assistance: an AI coding assistant was used for code drafting, offline
+analysis and report editing; no external model or API is called during grading.
+This is disclosed in the report.

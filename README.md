@@ -26,11 +26,11 @@ The authoritative, immutable artifacts are the assets of the GitHub Release:
 - **Adapter archive**: `DASE7506_MP3_adapter.zip`
   - exactly `adapter_model.safetensors` and `adapter_config.json`
 
-Direct download links (replace `v1.0` with the published tag if different):
+Direct download links (replace `v1.1` with the published tag if different):
 
 ```
-https://github.com/lintao-yang/dase7506-mp3-SQL/releases/download/v1.0/DASE7506_MP3_submission_v2.zip
-https://github.com/lintao-yang/dase7506-mp3-SQL/releases/download/v1.0/DASE7506_MP3_adapter.zip
+https://github.com/lintao-yang/dase7506-mp3-SQL/releases/download/v1.1/DASE7506_MP3_submission_v2.zip
+https://github.com/lintao-yang/dase7506-mp3-SQL/releases/download/v1.1/DASE7506_MP3_adapter.zip
 ```
 
 ## Approach
@@ -140,9 +140,9 @@ model weights are distributed here.
 
 ## External assistance and integrity
 
-- The Trae AI coding assistant was used for code drafting, offline data
-  analysis, report editing and experiment orchestration. No external model or
-  API is called during grading.
+- An AI coding assistant was used for code drafting, offline data analysis,
+  report editing and experiment orchestration. No external model or API is
+  called during grading.
 - The agent never reads `test_references.json`, the grading databases or the
   expected-result fingerprints; those are used only by the official scorer.
 - Hints are treated as opaque SQL and are only accepted after independent
