@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-model/
+
+# Local experiments and model provisioning
+models/
+.hf-cache/
+.pip-cache/
+.tmp/
+repro-check*/
+repro-v2/
+
+# Local run outputs (the authoritative ones are inside the source archive)
+outputs/*.json
+outputs/*.jsonl
